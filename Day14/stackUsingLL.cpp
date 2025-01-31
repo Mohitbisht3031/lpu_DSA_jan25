@@ -38,7 +38,7 @@ class Stack{
     int pop(){
         if(s == 0)return -1;
         int e = h->val;
-        h = h->next;
+        h = h->ne  xt;
         return e;
     }
 
